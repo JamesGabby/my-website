@@ -1,6 +1,6 @@
 import React from "react";
 import './main-section.styles.scss';
-import pic from './me.png';
+import pic from './me.jpg';
 import { MdEmail } from 'react-icons/md';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';

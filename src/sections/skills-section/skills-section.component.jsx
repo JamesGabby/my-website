@@ -6,11 +6,6 @@ import { DiReact } from 'react-icons/di';
 import { FaAws } from 'react-icons/fa';
 import { FaDatabase } from 'react-icons/fa';
 import { FaNode } from 'react-icons/fa';
-import crwn from './crwn.png';
-import ang from './ang.png';
-import scr from './scr.png';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const SkillsSection = () => (
     <div>
@@ -56,29 +51,6 @@ const SkillsSection = () => (
                         <p>Express, GraphQL, Jest</p>
                     </div>
                 </div>
-            </div>
-        </section>
-        <header className="text-centre" id="projects">
-            <div className="projects-header">
-                <h1>Projects</h1>
-            </div>
-        </header>
-        <section id="projects">
-            <div className="container container--narrow c">
-                <Carousel autoPlay={true} interval={4000} infiniteLoop={true} transitionTime={700}>
-                    <div>
-                        <img src={crwn} />
-                        <p className="legend">Crwn Clothing built with React, Redux, Router, Firebase + more</p>
-                    </div>
-                    <div>
-                        <img src={ang} />
-                        <p className="legend">Portfolio built using Angular and AWS Amplify</p>
-                    </div>
-                    <div>
-                        <img src={scr} />
-                        <p className="legend">Scoreboard app built with React</p>
-                    </div>
-                </Carousel>
             </div>
         </section>
     </div>
