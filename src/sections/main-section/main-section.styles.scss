@@ -1,10 +1,11 @@
 :root {
     --clr-primary-200: #f3eed9;
     --clr-primary-400: #110b09;
+    --clr-primary-300: #eaf2fa;
 
     --clr-neutral-100: #fff;
     --clr-neutral-900: #222c2a;
-    --clr-subheading-dm: lightgrey;
+    --clr-subheading-dm: grey;
 
     --ff-primary: 'Lora', serif;
     --ff-accent: 'Lora', serif;
@@ -114,6 +115,19 @@ h3 {
 
     h1, h2, h3, a, #photo-icon, p {
         color: var(--clr-neutral-100);
+    }
+}
+
+.bg-alt {
+    background-color: var(--clr-primary-300);
+    color: var(--clr-neutral-100);
+
+    h1, h2, h3, a, #photo-icon, p {
+        color: var(--clr-neutral-900);
+    }
+
+    code, p {
+        color: #110b09;
     }
 }
 

@@ -9,13 +9,13 @@ import { FaNode } from 'react-icons/fa';
 
 const SkillsSection = () => (
     <div>
-        <header className="bg-light text-centre" id="skills">
+        <header className="bg-alt text-centre" id="skills">
             <div>
                 <h1>Skills</h1>
             </div>
         </header>
 
-        <section className="bg-light">
+        <section className="bg-alt">
             <div className="container container--narrow">
                 <div className="split remove-padding">
                     <div className="skill"> 

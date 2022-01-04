@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form'
@@ -8,6 +8,11 @@ init("user_VFME93BlMSF9rgQKEJauz");
 
 const ContactSection = () => {
     const form = useRef();
+    const [forms, setForms] = useState(false);
+    const reSizeForm = () => {
+        window.innerWidth < 630 ? setForms(true) : setForms(false);
+    }
+    window.addEventListener('scroll', reSizeForm);
 
     const testIt = () => {
         alert('hi');
@@ -28,7 +33,7 @@ const ContactSection = () => {
     };
     
     return (
-        <section className="bg-accent top-pad" id='contact'>
+        <section className="bg-light top-pad" id='contact'>
             <div className=''>
                 <div className="split-form">
                     <div className='contact'>
@@ -37,17 +42,17 @@ const ContactSection = () => {
                     
                     <Form ref={form} onSubmit={sendEmail} onSubmit={testIt} className='form'>
                         <div className="skill">
-                            <Form.Group className="w-100" controlId="formBasicPassword">
+                            <Form.Group className={forms ? 'w-100' : 'w-50'} controlId="formBasicPassword">
                                 <Form.Control className='text-primary' type="text" name="user_name" placeholder='Your Name'/>
                             </Form.Group>
                         </div>
                         <div className="skill">
-                            <Form.Group className="w-100 " controlId="formBasicPassword">
+                            <Form.Group className={forms ? 'w-100' : 'w-50'} controlId="formBasicPassword">
                                     <Form.Control className='text-primary' type="text" name="user_email" placeholder='Your Email' />
                             </Form.Group>                    
                         </div>
                         <div className="skill">
-                            <Form.Group className="w-100 " controlId="formBasicPassword">
+                            <Form.Group className={forms ? 'w-100' : 'w-50'} controlId="formBasicPassword">
                                     <Form.Control className='text-primary' as="textarea" rows={3} placeholder='Message' />
                             </Form.Group>                    
                         </div>

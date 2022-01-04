@@ -3,6 +3,7 @@ import './toolbar.styles.scss';
 
 const Toolbar = () => {
     const [toolbar, setToolbar] = useState(false);
+
     const reSize = () => {
         window.scrollY >= 100 ? setToolbar(true) : setToolbar(false);
     }
