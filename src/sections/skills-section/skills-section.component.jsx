@@ -14,7 +14,7 @@ const SkillsSection = () => (
                 <h1>Skills</h1>
             </div>
         </header>
-        
+
         <section className="bg-light">
             <div className="container">
                 <div className="split remove-padding">
@@ -26,7 +26,7 @@ const SkillsSection = () => (
                     <div className="skill">
                         <h2 id="react"><DiReact /></h2>
                         <h3>React</h3>
-                        <p>Redux, Hooks, React Router</p>
+                        <p>Redux, Hooks, Router, Bootstrap</p>
                     </div>
                     <div className="skill">
                         <h2 id="js"><IoLogoJavascript /></h2>

@@ -28,7 +28,7 @@ const ContactSection = () => {
     };
     
     return (
-        <section className="bg-dark- top-pad" id='contact'>
+        <section className="bg-warn top-pad" id='contact'>
             <div className='container'>
                 <div className="split-form">
                     <div className='contact'>
