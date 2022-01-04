@@ -2,7 +2,7 @@ import React from "react";
 import './directory.styles.scss';
 import MenuItem from "../menu-item/menu-item.component";
 import PhotoPageHeader from "../photo-page-header/photo-page-header.component";
-import ReactMessage from "../react-message/react-message.component";
+import ReactMessage from "../../components/react-message/react-message.component";
 import pic1 from './photos/DSCN1250.JPG';
 import pic2 from './photos/DSCN0535.JPG';
 import pic3 from './photos/DSCN0552.JPG';
@@ -12,6 +12,7 @@ import pic6 from './photos/DSCN0689.JPG';
 import pic7 from './photos/DSCN1045.JPG';
 import pic8 from './photos/DSCN1262.JPG';
 import pic9 from './photos/DSCN0978.JPG';
+import GalleryToolbar from "../gallery-toolbar/gallery-toolbar.component";
 
 class Directory extends React.Component {
     constructor() {
@@ -89,6 +90,7 @@ class Directory extends React.Component {
     render() {
         return (      
             <div className="directory-menu">
+              <GalleryToolbar />
               <PhotoPageHeader />
                 {
                     this.state.sections.map( ({id, ...otherSectionProps }) => (

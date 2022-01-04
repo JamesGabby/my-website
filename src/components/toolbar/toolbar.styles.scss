@@ -1,6 +1,6 @@
   .toolbar {
     position: fixed;
-    background-color: #05386b;  
+    background-color: #282c34;
     min-height: 4vh;
     height: 8vh;
     top: 0;
@@ -13,11 +13,7 @@
     transition: height 0.7s;
     z-index: 10;
     min-width: 100%;
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    // overflow-x: hidden; 
+    font-family: 'Montserrat', sans-serif;    
 
   .Name-text {
     font-size: calc(2px + 2vmin);
@@ -39,6 +35,7 @@
         cursor: pointer;
         color: #fff;
         text-decoration: none;
+        text-align: center;
     }
   
     a:hover {

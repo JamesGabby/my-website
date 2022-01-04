@@ -15,7 +15,7 @@ const MainSection = () => (
             <div className="container container--narrow">
                 <div className="split">
                     <div className="left-side">
-                        <img src={pic} title="A picture of me" alt="A picture of me" />
+                        <img className="portrait" src={pic} title="A picture of me" alt="A picture of me" />
                         <div className="below-portrait">
                             <h1>James Gabbitus</h1>
                             <div className="code">

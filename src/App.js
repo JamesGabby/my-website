@@ -1,7 +1,7 @@
 import './App.scss';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/homepage/homepage.component';
-import Directory from './components/directory/directory.component';
+import Directory from './photo-gallery/directory/directory.component';
 
 function App() {
   return (

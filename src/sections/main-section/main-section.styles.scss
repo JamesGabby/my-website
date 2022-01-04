@@ -22,7 +22,6 @@ body {
     font-family: var(--ff-primary);
     font-weight: 400;
     font-size: 1.3125rem;
-    //overflow-x: hidden;
 }
 
 body, h1, h2, h3, p {
@@ -45,7 +44,7 @@ h2, h3, p {
     margin-bottom: .5em;
 }
 
-img {
+.portrait {
     display: block;
     max-width: 100%;
     width: 100%;
@@ -173,6 +172,7 @@ h3 {
     display: inline-block;
     flex-basis: 2.5rem;
     transform: scale(1.4);
+    color: #795548;
 }
 
 .socials #photo-icon {
