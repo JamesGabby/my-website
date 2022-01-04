@@ -10,43 +10,43 @@ import { FaNode } from 'react-icons/fa';
 const SkillsSection = () => (
     <div>
         <header className="bg-light text-centre" id="skills">
-            <div className="container container--narrow">
+            <div>
                 <h1>Skills</h1>
             </div>
         </header>
 
         <section className="bg-light">
-            <div className="container">
+            <div className="container container--narrow">
                 <div className="split remove-padding">
                     <div className="skill"> 
-                        <h2 id="java"><DiJava /></h2>
+                        <h2 id="java"><DiJava size="3em" /></h2>
                         <h3>Java</h3>
                         <p>Spring (Boot & MVC), JUnit, Maven</p>
                     </div>
                     <div className="skill">
-                        <h2 id="react"><DiReact /></h2>
+                        <h2 id="react"><DiReact size="3em" /></h2>
                         <h3>React</h3>
                         <p>Redux, Hooks, Router, Bootstrap</p>
                     </div>
                     <div className="skill">
-                        <h2 id="js"><IoLogoJavascript /></h2>
+                        <h2 id="js"><IoLogoJavascript size="3em" /></h2>
                         <h3>JavaScript</h3>
                         <p>jQuery, Next.js, Anime.js, AOS</p>
                     </div>
                 </div>
                 <div className="split" id="padding-skills">
                     <div className="skill">
-                        <h2 id="aws"><FaAws /></h2>
+                        <h2 id="aws"><FaAws size="3em" /></h2>
                         <h3>Cloud Engineering</h3>
                         <p>AWS EC2, EKS, CloudFormation, CloudWatch, networking etc.</p>
                     </div>
                     <div className="skill">
-                        <h2><FaDatabase /></h2>
+                        <h2><FaDatabase size="3em" /></h2>
                         <h3>Databases</h3>
                         <p>MySQL, MongoDB, DynamoDB</p>
                     </div>
                     <div className="skill">
-                        <h2 id="node"><FaNode /></h2>
+                        <h2 id="node"><FaNode size="3em" /></h2>
                         <h3>Node</h3>
                         <p>Express, GraphQL, Jest</p>
                     </div>

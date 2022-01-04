@@ -28,8 +28,8 @@ const ContactSection = () => {
     };
     
     return (
-        <section className="bg-warn top-pad" id='contact'>
-            <div className='container'>
+        <section className="bg-accent top-pad" id='contact'>
+            <div className=''>
                 <div className="split-form">
                     <div className='contact'>
                         <h2 className='contact-title'>Contact</h2>

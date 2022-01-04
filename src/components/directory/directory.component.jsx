@@ -20,21 +20,21 @@ class Directory extends React.Component {
         this.state = {
             sections: [
                 {
-                  title: 'hats',
+                  title: 'rainbow',
                   imageUrl: pic1,
                   size: 'large',
                   id: 1,
                   linkUrl: '/shop/hats'
                 },
                 {
-                  title: 'jackets',
+                  title: 'bird',
                   imageUrl: pic2,
                   size: 'large',
                   id: 2,
                   linkUrl: '/shop/jackets'
                 },
                 {
-                  title: 'sneakers',
+                  title: 'sunset',
                   imageUrl: pic3,
                   size: 'large',
                   id: 3,

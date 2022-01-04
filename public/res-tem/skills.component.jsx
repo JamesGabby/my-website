@@ -5,14 +5,14 @@ import './skills.styles.scss';
 const Skills = () => (
     <div>
         <header className="bg-light text-centre">
-            <div className="f f--narrow">
+            <div className="container container--narrow">
                 <p>Lorem, ipsum dolor.</p>
                 <h1>Responsive layouts don't have to be a struggle.</h1>
             </div>
         </header>
 
         <section>
-            <div className="f">
+            <div className="container">
                 <h2 className="text-centre">Quality Designs</h2>
                 <div className="split">
                     <div>
@@ -26,7 +26,7 @@ const Skills = () => (
         </section>
 
         <section className="bg-dark">
-            <div className="f">
+            <div className="container">
                 <div className="split">
                     <div>
                         <h2>Made custom for you</h2>
@@ -40,7 +40,7 @@ const Skills = () => (
         </section>
 
         <section className="bg-accent">
-            <div className="f">
+            <div className="container">
                 <div className="split">
                     <div>
                         {/* <img src={pic} alt="me" /> */}

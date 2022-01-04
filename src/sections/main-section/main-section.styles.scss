@@ -21,11 +21,12 @@ body {
     font-family: var(--ff-primary);
     font-weight: 400;
     font-size: 1.3125rem;
-    overflow-x: hidden;
+    //overflow-x: hidden;
 }
 
 body, h1, h2, h3, p {
     margin: 0;
+    padding: 0;
 }
 
 p {
@@ -100,7 +101,7 @@ h3 {
 }
 
 .container--narrow {
-    padding: 0;
+    max-width: 84rem;
 }
 
 .bg-light {
@@ -192,9 +193,6 @@ h1 {
 
 .no-list-styling {
     list-style-type: none;
-    transform: scale(1.3);
-    font-size: 1rem;
-    margin-left: 2rem;
     padding-top: .5rem;
 }
 
@@ -206,10 +204,11 @@ h1 {
         p {
             margin-left: 0rem;
         }
+
     }
 
     .left-side {
-        margin: -12rem 0 0 -8rem;
+        margin: -15rem 0 0 -8rem;
     }
 
     .below-portrait {
@@ -222,7 +221,7 @@ h1 {
 }
 
 .no-list-styling p {
-    font-size: .6rem;
-    margin-left: 1rem;
+    font-size: .7rem;
+    margin-left: 1.8rem;
     color: var(--clr-subheading-dm);
 }
