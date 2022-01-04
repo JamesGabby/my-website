@@ -5,7 +5,7 @@ const Toolbar = () => {
     const [toolbar, setToolbar] = useState(false);
 
     const reSize = () => {
-        window.scrollY >= 100 ? setToolbar(true) : setToolbar(false);
+        window.scrollY >= 10 ? setToolbar(true) : setToolbar(false);
     }
     window.addEventListener('scroll', reSize);
 
