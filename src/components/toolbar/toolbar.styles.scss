@@ -1,0 +1,63 @@
+  .toolbar {
+    position: fixed;
+    background-color: black;  
+    min-height: 4vh;
+    height: 8vh;
+    top: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #252325 0px 1px 15px;
+    transition: height 0.7s;
+    z-index: 100;
+    min-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin-right: -5rem;
+
+  .Name-text {
+    font-size: calc(2px + 2vmin);
+    text-align: left;
+    width: 60%;
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+  }
+
+  .sections {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    font-size: calc(2px + 2vmin);
+  
+    a {
+        flex-basis: 40%;
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+    }
+  
+    a:hover {
+        font-weight: 700;
+    }
+
+  }
+}
+
+@media (max-width: 40em) {
+  .sections {
+    flex-basis: 90%;
+    margin-inline: .7rem;
+
+  }
+
+  .toolbar .Name-text {
+    margin-inline: .7rem;
+  }
+}
+
+.toolbar.active {
+  height: 5vh;
+  opacity: 0.8;
+}

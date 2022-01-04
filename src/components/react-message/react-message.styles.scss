@@ -1,0 +1,59 @@
+
+.React-message {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #282c34;
+  font-size: medium;
+  padding: .5rem 0;
+
+  .pwr {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #icon {
+    margin-top: .26rem;
+    margin-right: .2rem;
+  }
+
+  #name {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  code {
+    color: #fff;
+  }
+  
+  .App-logo {
+      height: 3vmin;
+      pointer-events: none;
+      width: auto;
+      margin: 0;
+  }
+
+}
+
+
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

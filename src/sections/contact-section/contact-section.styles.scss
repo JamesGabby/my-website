@@ -1,0 +1,33 @@
+.contact-title {
+     padding-top: 0;
+}
+
+.form {
+    text-align: left;
+    padding: 2rem;
+}
+
+.split-form {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 40em) {
+    .split-form {
+        flex-direction: row; 
+        align-items: baseline;
+    }
+
+    .split-form > * {
+        flex-basis: 100%;
+    }
+
+    .top-pad {
+        padding-top: 0rem;
+    }
+}
+
+.top-pad {
+    padding-top: 9.3rem;
+}

@@ -1,0 +1,56 @@
+.remove-padding {
+    margin-top: -5rem;
+}
+
+#padding-skills {
+    padding-top: 1rem;
+}
+
+@media (min-width: 40em) {
+    .remove-padding {
+        margin-top: -7rem;
+    }
+
+    #padding-skills {
+        padding-top: 3rem;
+    }
+}
+
+.skill {
+    padding-bottom: 3rem;
+
+    h2 {
+        transform: scale(2.5);
+        color: #795548;
+    }
+
+    h3 {
+        padding-top: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-top: -.6rem;
+        color: #795548;
+    }
+
+    #java {
+        color: #f89820;
+    }
+
+    #react {
+        color: #61DAFB;
+    }
+
+    #node {
+        color: #009900;
+    }
+
+    #aws {
+        color: #253f3e;
+    }
+
+    #js {
+        color: #f7df1e;
+    }
+}
