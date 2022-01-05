@@ -15,11 +15,11 @@ const GalleryToolbar = () => {
                     {toolbar ? 'James Gabbitus' : 'Welcome!'}
                 </p>  
                 <div className="sections">
-                    <a title="Home" href="/my-website#home">Home</a>
-                    <a title="Skills" href="/my-website#skills">Skills</a>
-                    <a title="Projects" href="/my-website#projects">Projects</a>
+                    <a title="Home" href="/#home">Home</a>
+                    <a title="Skills" href="/#skills">Skills</a>
+                    <a title="Projects" href="/#projects">Projects</a>
                     <a title="CV" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1XF3AFJrVP6b76BS4pD-xg2huL65WEDnNCm9g5Zq2skE/edit?usp=sharing">CV</a>
-                    <a title="Contact" href="/my-website#contact">Contact</a>
+                    <a title="Contact" href="/#contact">Contact</a>
                 </div>
             </div>
         </div>
