@@ -10,9 +10,9 @@
 
   .pwr {
     flex-direction: row;
-    display: flex;
     width: 100%;
     justify-content: center;
+    display: none;
   }
 
   #icon {
@@ -54,4 +54,15 @@
       transform: rotate(360deg);
     }
   }
+
+  @media (min-width: 40em) {
+    .React-message {
+    .pwr {
+      flex-direction: row;
+      width: 100%;
+      justify-content: center;
+      display: flex;
+    }
+  }
+}
   

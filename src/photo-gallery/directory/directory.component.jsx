@@ -12,6 +12,10 @@ import pic6 from './photos/DSCN0689.JPG';
 import pic7 from './photos/DSCN1045.JPG';
 import pic8 from './photos/DSCN1262.JPG';
 import pic9 from './photos/DSCN0978.JPG';
+import pic10 from './photos/DSCN1269.JPG';
+import pic11 from './photos/DSCN1284.JPG';
+import pic12 from './photos/DSCN1331.JPG';
+import pic13 from './photos/DSCN1339.JPG';
 import GalleryToolbar from "../gallery-toolbar/gallery-toolbar.component";
 
 class Directory extends React.Component {
@@ -79,6 +83,34 @@ class Directory extends React.Component {
                 {
                   title: 'mens',
                   imageUrl: pic9,
+                  size: 'large',
+                  id: 7,
+                  linkUrl: '/shop/mens'
+                },
+                {
+                  title: 'mens',
+                  imageUrl: pic10,
+                  size: 'large',
+                  id: 6,
+                  linkUrl: '/shop/mens'
+                },
+                {
+                  title: 'mens',
+                  imageUrl: pic11,
+                  size: 'large',
+                  id: 7,
+                  linkUrl: '/shop/mens'
+                },
+                {
+                  title: 'mens',
+                  imageUrl: pic12,
+                  size: 'large',
+                  id: 7,
+                  linkUrl: '/shop/mens'
+                },
+                {
+                  title: 'mens',
+                  imageUrl: pic13,
                   size: 'large',
                   id: 7,
                   linkUrl: '/shop/mens'
