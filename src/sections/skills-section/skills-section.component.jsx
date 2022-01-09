@@ -1,4 +1,4 @@
-import React, { Component }  from "react";
+import React  from "react";
 import './skills-section.styles.scss';
 import { DiJava } from 'react-icons/di';
 import { IoLogoJavascript } from 'react-icons/io';

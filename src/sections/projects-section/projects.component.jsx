@@ -17,15 +17,15 @@ const ProjectsSection = () => (
             <div className="container-projects container--narrow c">
                 <Carousel autoPlay={true} interval={4000} infiniteLoop={true} transitionTime={700}>
                     <div>
-                        <img src={crwn} />
+                        <img alt="" src={crwn} />
                         <p className="legend">Crwn Clothing built with React, Redux, Router, Firebase + more</p>
                     </div>
                     <div>
-                        <img src={ang} />
+                        <img alt="" src={ang} />
                         <p className="legend">Portfolio built using Angular and AWS Amplify</p>
                     </div>
                     <div>
-                        <img src={scr} />
+                        <img alt="" src={scr} />
                         <p className="legend">Scoreboard app built with React</p>
                     </div>
                 </Carousel>
