@@ -10,12 +10,12 @@ import './projects.styles.scss';
 
 const ProjectsSection = () => (
     <div>
-        <header className="text-centre" id="projects">
+        <header className="Dark text-centre" id="projects">
             <div className="projects-header">
                 <h1>Projects</h1>
             </div>
         </header>
-        <section id="projects">
+        <section className="Dark" id="projects">
             <div className="container-projects container--narrow c">
                 <Carousel autoPlay={true} interval={4000} infiniteLoop={true} transitionTime={700}>
                     <div>

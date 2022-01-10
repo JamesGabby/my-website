@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 const MainSection = () => (
     <div>
-        <section className="bg-light" id="home">
+        <section className="Dark" id="home">
             <div className="container container--narrow">
                 <div className="split">
                     <div className="left-side">

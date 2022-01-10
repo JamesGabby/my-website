@@ -5,7 +5,7 @@
 
     --clr-neutral-100: #fff;
     --clr-neutral-900: #222c2a;
-    --clr-subheading-dm: grey;
+    --clr-subheading-dm: lightgrey;
 
     --ff-primary: 'Lora', serif;
     --ff-accent: 'Lora', serif;
@@ -22,6 +22,7 @@ body {
     font-family: var(--ff-primary);
     font-weight: 400;
     font-size: 1.3125rem;
+    background-color: rgba(0,0,0,.8);
 }
 
 body, h1, h2, h3, p {
@@ -106,7 +107,15 @@ h3 {
 }
 
 .bg-light {
-    background-color: var(--clr-primary-200);
+    background-color: rgba(0,0,0,.8);
+}
+
+.Dark {
+    background-color: rgba(0,0,0,.6);
+
+    h1, h2, h3, a, #photo-icon, p {
+        color: var(--clr-neutral-100);
+    }
 }
 
 .bg-accent {
