@@ -16,7 +16,7 @@ import pic10 from './photos/DSCN1269.JPG';
 import pic11 from './photos/DSCN1284.JPG';
 import pic12 from './photos/DSCN1331.JPG';
 import pic13 from './photos/DSCN1339.JPG';
-import GalleryToolbar from "../gallery-toolbar/gallery-toolbar.component";
+import Toolbar from "../../components/toolbar/toolbar.component";
 
 class Directory extends React.Component {
     constructor() {
@@ -121,9 +121,11 @@ class Directory extends React.Component {
 
     render() {
         return (      
+          <div className="App">
             <div className="directory-menu">
-              <GalleryToolbar />
-              <PhotoPageHeader />
+                <Toolbar />
+                <PhotoPageHeader />
+              
                 {
                     this.state.sections.map( ({id, ...otherSectionProps }) => (
                         <MenuItem
@@ -132,8 +134,10 @@ class Directory extends React.Component {
                         />
                     ))
                 }
+              
               <ReactMessage />
             </div>
+          </div>
         )
     }
 }

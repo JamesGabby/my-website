@@ -1,8 +1,8 @@
   .toolbar {
     position: fixed;
-    background-color: #282c34;
+    background-color: rgba(0,0,0,.0);    
     min-height: 4vh;
-    height: 8vh;
+    height: 10vh;
     top: 0;
     color: white;
     display: flex;
@@ -14,21 +14,25 @@
     z-index: 10;
     min-width: 100%;
     font-family: 'Montserrat', sans-serif;    
+    border-bottom: #6CADDF solid .001rem;
 
-  .Name-text {
-    font-size: calc(2px + 2vmin);
-    text-align: left;
-    width: 60%;
-    color: #fff;
-    margin: 0;
-    font-weight: 700;
-  }
+    .Name-text {
+      font-size: calc(12px + 3vmin);
+      text-align: left;
+      width: 60%;
+      color: #fff;
+      margin: 0;
+      font-weight: 400;
+      font-family: 'Great Vibes', sans-serif;
+      letter-spacing: 3px;
+    }
 
   .sections {
     display: flex;
     flex-direction: row;
     width: 30%;
     font-size: calc(2px + 2vmin);
+    align-items: center;
   
     a {
         flex-basis: 40%;
@@ -42,6 +46,10 @@
         font-weight: 700;
     }
 
+    #Menu {
+      padding: 0;
+      margin: 0;
+    }
   }
 }
 
@@ -58,6 +66,34 @@
 }
 
 .toolbar.active {
-  height: 5vh;
-  opacity: 0.8;
+  height: 7vh;
+  background-color: rgba(0,0,0,.9);
+
+  .Name-text {
+    font-size: calc(7px + 3vmin);
+  }
+}
+
+.List {
+  display: none;
+}
+
+.List.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 40rem;
+  background-color: rgba(0,0,0,.8);
+  position: fixed;
+  z-index: 1;
+
+  h2 {
+      width: 100%;
+      padding-left: 2.5rem;
+      margin-top: 8rem;
+      padding-bottom: -3rem;
+      color: #fff;
+      text-decoration: none;
+  }
 }
