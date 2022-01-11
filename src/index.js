@@ -4,6 +4,8 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+document.title = `James Gabbitus`;
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

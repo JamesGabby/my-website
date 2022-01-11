@@ -20,10 +20,10 @@ const Toolbar = () => {
                     {toolbar ? 'James Gabbitus' : 'Welcome!'}
                 </p>  
                 <div className="sections">
-                    <a title="Home" href="/#home">Home</a>
-                    <a title="Skills" href="/#skills">Skills</a>
-                    <a title="Projects" href="/#projects">Projects</a>
-                    <a title="Contact" href="/#contact">Contact</a>
+                    <a id='Hide-on-mobile' title="Home" href="/#home">Home</a>
+                    <a id='Hide-on-mobile' title="Skills" href="/#skills">Skills</a>
+                    <a id='Hide-on-mobile' title="Projects" href="/#projects">Projects</a>
+                    <a id='Hide-on-mobile' title="Contact" href="/#contact">Contact</a>
                     <a id='Menu' onClick={() => setCount(!count)}>{count ? <ImCross size={'1.5rem'} /> : <AiOutlineMenu size={'2.5rem'} color="#6CADDF" />}</a>
                 </div>
             </div>

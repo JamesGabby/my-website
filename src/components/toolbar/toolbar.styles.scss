@@ -19,7 +19,7 @@
     .Name-text {
       font-size: calc(12px + 3vmin);
       text-align: left;
-      width: 60%;
+      width: 50%;
       color: #fff;
       margin: 0;
       font-weight: 400;
@@ -30,7 +30,7 @@
   .sections {
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 40%;
     font-size: calc(2px + 2vmin);
     align-items: center;
   
@@ -45,23 +45,6 @@
     a:hover {
         font-weight: 700;
     }
-
-    #Menu {
-      padding: 0;
-      margin: 0;
-    }
-  }
-}
-
-@media (max-width: 40em) {
-  .sections {
-    flex-basis: 90%;
-    margin-inline: .7rem;
-
-  }
-
-  .toolbar .Name-text {
-    margin-inline: .7rem;
   }
 }
 
@@ -95,5 +78,27 @@
       padding-bottom: -3rem;
       color: #fff;
       text-decoration: none;
+  }
+}
+
+@media (max-width: 40em) {
+  #Menu {
+    margin-left: 6rem;
+  }
+
+  .List.active {
+  
+    h2 {
+        padding-left: 0;
+    }
+  }
+
+  #Hide-on-mobile {
+    display: none;
+
+  }
+
+  .toolbar .Name-text {
+    margin-inline: .7rem;
   }
 }
