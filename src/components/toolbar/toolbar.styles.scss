@@ -69,13 +69,38 @@
   padding-bottom: 40rem;
   background-color: rgba(0,0,0,.8);
   position: fixed;
+  align-items: center;
   z-index: 1;
+
+  .List-child-top {
+    padding-top: 9rem;
+    width: 100%;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .List-child {
+    flex-basis: 100%;
+    padding-top: 3rem;
+    width: 100%;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .List-child h2:hover {
+    font-weight: 900;
+  }
+
+  .List-child-top h2:hover {
+    font-weight: 900;
+  }
 
   h2 {
       width: 100%;
-      padding-left: 2.5rem;
-      margin-top: 8rem;
-      padding-bottom: -3rem;
       color: #fff;
       text-decoration: none;
   }
@@ -89,7 +114,7 @@
   .List.active {
   
     h2 {
-        padding-left: 0;
+        margin-bottom: 0rem;
     }
   }
 
