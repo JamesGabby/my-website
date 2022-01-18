@@ -3,17 +3,17 @@
     width: min(90%, 70.5rem);
 }
 
-.c {
-    margin-top: -2rem;
-}
-
 @media (min-width: 40em) {
     .container-projects {
         margin-inline: auto;
         width: min(60%, 70.5rem);
     }
+}
 
-    .c {
-        margin-top: -12rem;
+#projects {
+    padding: 3rem;
+
+    h1 {
+        padding-top: 2rem;
     }
 }

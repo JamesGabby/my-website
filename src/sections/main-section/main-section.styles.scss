@@ -71,7 +71,7 @@ h3 {
     padding-top: 2rem;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 70em) {
     header, section {
         padding: 7rem 0;
     }
@@ -82,7 +82,7 @@ h3 {
     display: flex;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 70em) {
     .split {
         flex-direction: row; 
     }
@@ -220,7 +220,7 @@ h1 {
     padding-top: .5rem;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 70em) {
     .no-list-styling {
         margin-left: 0rem;
         margin-top: 0rem;

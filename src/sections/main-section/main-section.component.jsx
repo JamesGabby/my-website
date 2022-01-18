@@ -36,7 +36,9 @@ const MainSection = () => (
                     </div>
 
                     <div className="align-text-left">
-                        <h2>Biography</h2>
+                        <div data-aos="zoom-in">
+                            <h2>Biography</h2>
+                        </div>
                         <p>
                             Hi, I'm James Gabbitus, currently freelancing as a Full-Stack Developer. I have a Master's degree in Software Engineering from Manchester Metropolitan University (MMU) & a Bachelor's degree in Philosophy. 
                             A bit unconventional, I know. As a graduate in philosophy & a postgrad in software engineering, I strive to merge both disciplines together & derive a philosophy of excellence within the art of software development.

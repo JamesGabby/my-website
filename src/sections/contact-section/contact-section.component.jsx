@@ -34,7 +34,9 @@ const ContactSection = () => {
             <div className=''>
                 <div className="split-form">
                     <div className='contact'>
-                        <h2 className='contact-title'>Contact</h2>
+                        <div data-aos="zoom-in-right" data-aos-delay="150">
+                            <h2 className='contact-title'>Contact</h2>
+                        </div>
                     </div>
                     
                     <Form ref={form} onSubmit={sendEmail} className='form'>

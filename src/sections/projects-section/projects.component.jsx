@@ -12,11 +12,13 @@ const ProjectsSection = () => (
     <div>
         <header className="Dark text-centre" id="projects">
             <div className="projects-header">
-                <h1>Projects</h1>
+                <div data-aos="zoom-in-up">
+                    <h1>Projects</h1>
+                </div>
             </div>
         </header>
         <section className="Dark" id="projects">
-            <div className="container-projects container--narrow c">
+            <div className="container-projects container--narrow">
                 <Carousel autoPlay={true} interval={4000} infiniteLoop={true} transitionTime={700}>
                     <div>
                         <img alt="" src={crwn} />
