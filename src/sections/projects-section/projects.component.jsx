@@ -1,8 +1,9 @@
 import React from "react";
-import crwn from './crwn.png';
-import ang from './ang.png';
-import scr from './scr.png';
-import ch from './ch.png';
+import crwn from './img/crwn.png';
+import angular from './img/angular.png';
+import scr from './img/scr.png';
+import ch from './img/ch.png';
+import weather from './img/weather-app.png';
 
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -29,7 +30,11 @@ const ProjectsSection = () => (
                         <p className="legend">React website built for a client</p>
                     </div>
                     <div>
-                        <img alt="" src={ang} />
+                        <img alt="" src={weather} />
+                        <p className="legend">Weather app built with Node.js using a couple APIs</p>
+                    </div>
+                    <div>
+                        <img alt="" src={angular} />
                         <p className="legend">Portfolio built using Angular and AWS Amplify</p>
                     </div>
                     <div>

@@ -40,8 +40,7 @@ const MainSection = () => (
                             <h2>Biography</h2>
                         </div>
                         <p>
-                            Hi, I'm James Gabbitus, currently freelancing as a Full-Stack Developer. I have a Master's degree in Software Engineering from Manchester Metropolitan University (MMU) & a Bachelor's degree in Philosophy. 
-                            A bit unconventional, I know. As a graduate in philosophy & a postgrad in software engineering, I strive to merge both disciplines together & derive a philosophy of excellence within the art of software development.
+                        A determined and enthusiastic Junior Full-stack Developer with a Master's degree in Computing. I take pride in doing excellent work to the highest of standard, utilising best practices and not stopping until it is in its most ideal form. I'm highly motivated to do what it takes and more to achieve a successful career in the software industry. I would like to join a team to start my role as a professional developer, getting involved in projects and making a difference. I have a solid understanding of the MERN stack as well as Java development.
                         </p>
                         <div className="split">
                             <div>
@@ -51,13 +50,13 @@ const MainSection = () => (
                                     <li>Cloud Computing</li>
                                     <li>Client-Server Computing</li>
                                     <li>Machine Learning</li>
-                                    <li>UI/UX</li>
+                                    <li>React.js + Node.js</li>
                                 </ul>
                             </div>
                             <div className="edu">
                                 <h3>Education</h3>
                                 <ul className="no-list-styling">
-                                    <li><FaGraduationCap size="1.8em" />  MS Software Engineering, 2021<p>Manchester Metropolitan University</p></li>
+                                    <li><FaGraduationCap size="1.8em" />  MS Computing, 2021<p>Manchester Metropolitan University</p></li>
                                     <li><FaGraduationCap size="1.8em" />  BA Philosophy, 2020<p>Manchester Metropolitan University</p></li>
                                 </ul>
                             </div>

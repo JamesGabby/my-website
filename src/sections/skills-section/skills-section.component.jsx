@@ -31,8 +31,8 @@ const SkillsSection = () => {
                         <div data-aos="zoom-in" data-aos-delay="350">
                             <div className="skill">
                                 <h2 id="react"><DiReact size="3em" /></h2>
-                                <h3>React</h3>
-                                <p>Redux, Hooks, Router, Bootstrap</p>
+                                <h3>React.js</h3>
+                                <p>Native, Redux, Hooks, Router, Bootstrap, Context API</p>
                             </div>
                         </div>
                         <div data-aos="zoom-in" data-aos-delay="350">
@@ -61,8 +61,8 @@ const SkillsSection = () => {
                         <div data-aos="zoom-in" data-aos-delay="350">
                             <div className="skill">
                                 <h2 id="node"><FaNode size="3em" /></h2>
-                                <h3>Node</h3>
-                                <p>Express, GraphQL, Jest</p>
+                                <h3>Node.js</h3>
+                                <p>Express.js, GraphQL, Jest</p>
                             </div>
                         </div>
                     </div>
