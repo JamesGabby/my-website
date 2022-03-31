@@ -80,6 +80,7 @@ h3 {
 .split {
     flex-direction: column;
     display: flex;
+    margin-top: 1rem;
 }
 
 @media (min-width: 70em) {
@@ -232,7 +233,7 @@ h1 {
     }
 
     .left-side {
-        margin: -15rem 0 0 -8rem;
+        margin: -17rem 0 0 -8rem;
     }
 
     .below-portrait {

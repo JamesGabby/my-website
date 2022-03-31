@@ -30,7 +30,7 @@ const MainSection = () => (
                                         <AiFillCamera />
                                     </Link>
                                 </a>
-                                <a title="CV" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1XF3AFJrVP6b76BS4pD-xg2huL65WEDnNCm9g5Zq2skE/edit?usp=sharing"><AiFillFilePdf /></a>
+                                <a title="CV" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1RnVZd2PniRUhigyNhKu4xVke2UtT4Jeu/edit?usp=sharing&ouid=117017291518627947599&rtpof=true&sd=true"><AiFillFilePdf /></a>
                             </div>
                         </div>
                     </div>
@@ -40,17 +40,16 @@ const MainSection = () => (
                             <h2>Biography</h2>
                         </div>
                         <p>
-                        A determined and enthusiastic Junior Full-stack Developer with a Master's degree in Computing. I take pride in doing excellent work to the highest of standard, utilising best practices and not stopping until it is in its most ideal form. I'm highly motivated to do what it takes and more to achieve a successful career in the software industry. I would like to join a team to start my role as a professional developer, getting involved in projects and making a difference. I have a solid understanding of the MERN stack as well as Java development.
-                        </p>
+                        I'm a Full-Stack Developer who works predominantly with React.js, Next.js, Node.js, Express.js, MongoDB and Mongoose. I graduated with Distinction from my Master's degree in Computing from The Manchester Metropolitan University. Having a passion for best practices and excellence, I strive to arrive at elegant solutions in building beautifully bespoke, lightning fast and modern web applications.                         </p>
                         <div className="split">
                             <div>
                                 <h3>Interests</h3>
                                 <ul>
+                                    <li>Algorithms & Data Structures</li>
                                     <li>Full-Stack Development</li>
-                                    <li>Cloud Computing</li>
                                     <li>Client-Server Computing</li>
-                                    <li>Machine Learning</li>
-                                    <li>React.js + Node.js</li>
+                                    <li>Blockchain</li>
+                                    <li>SEO and optimisation</li>
                                 </ul>
                             </div>
                             <div className="edu">
@@ -62,12 +61,10 @@ const MainSection = () => (
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
     </div>
-    
 );
 
 export default MainSection;

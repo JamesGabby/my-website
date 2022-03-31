@@ -1,0 +1,74 @@
+.remove-padding {
+    margin-top: -5rem;
+}
+
+#padding-skills {
+    padding-top: 1rem;
+}
+
+@media (min-width: 40em) {
+    .remove-padding {
+        margin-top: -7rem;
+    }
+
+    #padding-skills {
+        padding-top: 3rem;
+    }
+}
+
+@media (max-width: 40em) {
+    .Skills-header {
+        padding-top: 2rem;
+    }
+
+}
+
+
+.skill {
+    padding-bottom: 3rem;
+    flex-direction: column;
+
+    h2 {
+        color: #795548;
+        padding: 0;
+        margin: 0;
+    }
+
+    h3 {
+        padding-top: 1rem;
+    }
+
+    #p2 {
+        font-size: 1rem;
+        margin-top: -.6rem;
+        color: lightgrey;
+    }
+
+    #java2 {
+        color: #f89820;
+    }
+
+    #react2 {
+        color: #61DAFB;
+    }
+
+    #node2 {
+        color: #009900;
+    }
+
+    #next {
+        color: #000;
+    }
+
+    #aws2 {
+        color: lightgrey;
+    }
+
+    #mongo {
+        color: green;
+    }
+}
+
+.skills-header {
+    margin: 1rem 0 -3rem 0;
+}

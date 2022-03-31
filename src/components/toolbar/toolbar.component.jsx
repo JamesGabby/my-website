@@ -32,7 +32,7 @@ const Toolbar = () => {
                     <a style={{color: '#fff'}} href="/#home" onClick={() => setdropdownIsEnabled(!dropdownIsEnabled)}><h2>Home</h2></a>
                 </div>
                 <div className="List-child">
-                    <a title="CV" style={{color: '#fff'}} target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1XF3AFJrVP6b76BS4pD-xg2huL65WEDnNCm9g5Zq2skE/edit?usp=sharing"><h2>CV</h2></a>
+                    <a title="CV" style={{color: '#fff'}} target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1RnVZd2PniRUhigyNhKu4xVke2UtT4Jeu/edit?usp=sharing&ouid=117017291518627947599&rtpof=true&sd=true"><h2>CV</h2></a>
                 </div>
                 <div className="List-child">
                     <a title="Photography">
