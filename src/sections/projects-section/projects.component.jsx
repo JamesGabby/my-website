@@ -4,6 +4,7 @@ import angular from './img/angular.png';
 import scr from './img/scr.png';
 import ch from './img/ch.png';
 import weather from './img/weather-app.png';
+import lucidofia from './img/lucidofia.png';
 
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -21,6 +22,10 @@ const ProjectsSection = () => (
         <section className="Dark" id="projects">
             <div className="container-projects container--narrow">
                 <Carousel autoPlay={true} interval={4000} infiniteLoop={true} transitionTime={700}>
+                    <div>
+                        <img alt="" src={lucidofia} />
+                        <p className="legend">Full Stack MERN Web Application for dream journalling + more</p>
+                    </div>
                     <div>
                         <img alt="" src={crwn} />
                         <p className="legend">Crwn Clothing built with React, Redux, Router, Firebase + more</p>

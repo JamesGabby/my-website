@@ -40,7 +40,8 @@ const MainSection = () => (
                             <h2>Biography</h2>
                         </div>
                         <p>
-                        I'm a Full-Stack Developer who works predominantly with React.js, Next.js, Node.js, Express.js, MongoDB and Mongoose. I graduated with Distinction from my Master's degree in Computing from The Manchester Metropolitan University. Having a passion for best practices and excellence, I strive to arrive at elegant solutions in building beautifully bespoke, lightning fast and modern web applications.                         </p>
+                        I'm a Full-Stack Developer who works predominantly with the MERN stack. I graduated with Distinction from my Master's degree in Computing from The Manchester Metropolitan University. Having a passion for best practices and excellence, I strive to arrive at elegant solutions in building beautifully bespoke, lightning fast and modern web applications.                         
+                        </p>
                         <div className="split">
                             <div>
                                 <h3>Interests</h3>
