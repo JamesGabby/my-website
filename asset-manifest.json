@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.8fcb8433.css",
-    "main.js": "/static/js/main.009ab4d1.js",
+    "main.css": "/static/css/main.cad62b0a.css",
+    "main.js": "/static/js/main.0dfca150.js",
     "static/js/787.3512ed67.chunk.js": "/static/js/787.3512ed67.chunk.js",
+    "static/media/lucidofia.png": "/static/media/lucidofia.23f5bba962744ee6db0b.png",
     "static/media/crwn.png": "/static/media/crwn.765dcd49baca6881bd2e.png",
     "static/media/DSCN1082.JPG": "/static/media/DSCN1082.22f0d9b2e0a8253f8b55.JPG",
     "static/media/DSCN0978.JPG": "/static/media/DSCN0978.18376e8694cf4e2d2fa6.JPG",
@@ -11,7 +12,6 @@
     "static/media/DSCN0689.JPG": "/static/media/DSCN0689.ee0fc628dc11a9b948fe.JPG",
     "static/media/DSCN0870.JPG": "/static/media/DSCN0870.0acf92f91dd9470f3972.JPG",
     "static/media/DSCN1250.JPG": "/static/media/DSCN1250.d2b19c187aee35ab2565.JPG",
-    "static/media/lucidofia.png": "/static/media/lucidofia.d5c27580d56746244641.png",
     "static/media/DSCN0535.JPG": "/static/media/DSCN0535.c414cb378ae8078ff25b.JPG",
     "static/media/DSCN0552.JPG": "/static/media/DSCN0552.ace65bca7de9ef578545.JPG",
     "static/media/DSCN1045.JPG": "/static/media/DSCN1045.6535e6e8274ff19a4989.JPG",
@@ -25,12 +25,12 @@
     "static/media/scr.png": "/static/media/scr.e87acf2c4c77744f050a.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.8fcb8433.css.map": "/static/css/main.8fcb8433.css.map",
-    "main.009ab4d1.js.map": "/static/js/main.009ab4d1.js.map",
+    "main.cad62b0a.css.map": "/static/css/main.cad62b0a.css.map",
+    "main.0dfca150.js.map": "/static/js/main.0dfca150.js.map",
     "787.3512ed67.chunk.js.map": "/static/js/787.3512ed67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fcb8433.css",
-    "static/js/main.009ab4d1.js"
+    "static/css/main.cad62b0a.css",
+    "static/js/main.0dfca150.js"
   ]
 }
