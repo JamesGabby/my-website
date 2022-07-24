@@ -42,10 +42,6 @@ const ProjectsSection = () => (
                         <img alt="" src={angular} />
                         <p className="legend">Portfolio built using Angular and AWS Amplify</p>
                     </div>
-                    <div>
-                        <img alt="" src={scr} />
-                        <p className="legend">Scoreboard app built with React</p>
-                    </div>
                 </Carousel>
             </div>
         </section>
