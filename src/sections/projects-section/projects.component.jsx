@@ -5,6 +5,7 @@ import scr from './img/scr.png';
 import ch from './img/ch.png';
 import weather from './img/weather-app.png';
 import lucidofia from './img/lucidofia.png';
+import rupee from './img/rupee.png';
 
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -33,6 +34,10 @@ const ProjectsSection = () => (
                     <div>
                         <img alt="" src={ch} />
                         <p className="legend">React website built for a client</p>
+                    </div>
+                    <div>
+                        <img alt="" src={rupee} />
+                        <p className="legend">Project Management Dashboard built for Rupee Solutions using Ruby on Rails</p>
                     </div>
                     <div>
                         <img alt="" src={weather} />
