@@ -71,6 +71,7 @@
   position: fixed;
   align-items: center;
   z-index: 1;
+  animation: fadeIn 1s;
 
   .List-child-top {
     padding-top: 9rem;
@@ -93,10 +94,12 @@
 
   .List-child h2:hover {
     font-weight: 900;
+    animation: fadeIn .5s;
   }
 
   .List-child-top h2:hover {
     font-weight: 900;
+    animation: fadeIn .5s;
   }
 
   h2 {
@@ -126,4 +129,9 @@
   .toolbar .Name-text {
     margin-inline: .7rem;
   }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
