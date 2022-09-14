@@ -2,3 +2,10 @@ A determined and enthusiastic Junior Full-stack Developer with a Master's degree
 
 Hi, I'm James Gabbitus, currently freelancing as a Full-Stack Developer. I have a Master's degree in Software Engineering from Manchester Metropolitan University (MMU) & a Bachelor's degree in Philosophy. 
                             A bit unconventional, I know. As a graduate in philosophy & a postgrad in software engineering, I strive to merge both disciplines together & derive a philosophy of excellence within the art of software development.
+
+
+I'm a Full-Stack Developer who works predominantly with the MERN stack. I graduated with Distinction from my Master's degree in Computing from The Manchester Metropolitan University. Having a passion for best practices and excellence, I strive to arrive at elegant solutions in building beautifully bespoke, lightning fast and modern web applications.                         
+
+
+I'm a Ruby on Rails Developer who is also well versed in the MERN stack (MongoDB, Express.js, React.js, Node.js), Java and more.
+I graduated with Distinction from my Master's degree in Computer Science from The Manchester Metropolitan University. Having a passion for best practices and excellence, I strive to arrive at elegant solutions in building beautifully bespoke, lightning fast and modern web applications.
