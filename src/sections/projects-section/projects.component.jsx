@@ -1,7 +1,6 @@
 import React from "react";
 import crwn from './img/crwn.png';
 import angular from './img/angular.png';
-import scr from './img/scr.png';
 import ch from './img/ch.png';
 import weather from './img/weather-app.png';
 import lucidofia from './img/lucidofia.png';
