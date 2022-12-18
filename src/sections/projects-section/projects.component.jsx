@@ -1,10 +1,12 @@
 import React from "react";
 import crwn from './img/crwn.png';
-import angular from './img/angular.png';
+// import angular from './img/angular.png';
 import ch from './img/ch.png';
-import weather from './img/weather-app.png';
+// import weather from './img/weather-app.png';
 import lucidofia from './img/lucidofia.png';
 import rupee from './img/rupee.png';
+import rupeeuk from './img/rupeeuk.png';
+import gabbgroup from './img/gabbgroup.png';
 
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -35,17 +37,25 @@ const ProjectsSection = () => (
                         <p className="legend">React website built for a client</p>
                     </div>
                     <div>
+                        <img alt="" src={gabbgroup} />
+                        <p className="legend">GabbGroup React website built for a client</p>
+                    </div>
+                    <div>
+                        <img alt="" src={rupeeuk} />
+                        <p className="legend">Rupee Solutions UK React website built for a client</p>
+                    </div>
+                    <div>
                         <img alt="" src={rupee} />
                         <p className="legend">Project Management Dashboard built for Rupee Solutions using Ruby on Rails</p>
                     </div>
-                    <div>
+                    {/* <div>
                         <img alt="" src={weather} />
                         <p className="legend">Weather app built with Node.js using a couple APIs</p>
                     </div>
                     <div>
                         <img alt="" src={angular} />
                         <p className="legend">Portfolio built using Angular and AWS Amplify</p>
-                    </div>
+                    </div> */}
                 </Carousel>
             </div>
         </section>

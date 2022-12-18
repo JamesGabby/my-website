@@ -40,7 +40,7 @@ const MainSection = () => (
                             <h2>Biography</h2>
                         </div>
                         <p>
-                        I'm currently a Ruby on Rails Developer working for Rupee Solutions UK. I'm well versed in Ruby, Rails, the MERN stack (MongoDB, Express.js, React.js, Node.js), Java and more. I graduated with Distinction from my Master's degree in Computer Science from The Manchester Metropolitan University. Having a passion for best practices and excellence, I strive to arrive at elegant solutions in building beautifully bespoke, lightning fast and modern web applications.
+                        I'm a Full-Stack Developer with expertise in React and Ruby on Rails. I'm also well versed in the MERN stack (MongoDB, Express.js, React.js, Node.js), Java and TypeScript. I graduated with Distinction from my Master's degree in Computing from The Manchester Metropolitan University. Having a passion for best practices and excellence, I strive to arrive at elegant solutions in building beautifully bespoke, lightning fast and modern web applications.
                         </p>
                         <div className="split">
                             <div>
@@ -49,8 +49,8 @@ const MainSection = () => (
                                     <li>Algorithms & Data Structures</li>
                                     <li>Full-Stack Development</li>
                                     <li>Client-Server Computing</li>
-                                    <li>Blockchain</li>
-                                    <li>SEO and optimisation</li>
+                                    <li>Web Development</li>
+                                    <li>SEO</li>
                                 </ul>
                             </div>
                             <div className="edu">
