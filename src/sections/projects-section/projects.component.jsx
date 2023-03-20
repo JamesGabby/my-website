@@ -42,13 +42,13 @@ const ProjectsSection = () => (
                     </div>
                     <div>
                         <img alt="" src={rupeeuk} />
-                        <p className="legend">Rupee Solutions UK React website built for a client</p>
+                        <p className="legend">Rupee Solutions UK React website</p>
                     </div>
-                    <div>
+                    {/*<div>
                         <img alt="" src={rupee} />
                         <p className="legend">Project Management Dashboard built for Rupee Solutions using Ruby on Rails</p>
                     </div>
-                    {/* <div>
+                     <div>
                         <img alt="" src={weather} />
                         <p className="legend">Weather app built with Node.js using a couple APIs</p>
                     </div>

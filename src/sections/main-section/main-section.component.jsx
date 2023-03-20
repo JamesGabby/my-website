@@ -30,7 +30,7 @@ const MainSection = () => (
                                         <AiFillCamera />
                                     </Link>
                                 </a>
-                                <a title="CV" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1RnVZd2PniRUhigyNhKu4xVke2UtT4Jeu/edit?usp=sharing&ouid=117017291518627947599&rtpof=true&sd=true"><AiFillFilePdf /></a>
+                                <a title="CV" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1rPBOh4M4UrNBG7AM8yyeaXoFnsJuUUBVn96mIOzQLNA/edit?usp=sharing"><AiFillFilePdf /></a>
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,11 @@ const MainSection = () => (
                             <h2>Biography</h2>
                         </div>
                         <p>
-                        I'm a Full-Stack Developer with expertise in React and Ruby on Rails. I'm also well versed in the MERN stack (MongoDB, Express.js, React.js, Node.js), Java and TypeScript. I graduated with Distinction from my Master's degree in Computing from The Manchester Metropolitan University. Having a passion for best practices and excellence, I strive to arrive at elegant solutions in building beautifully bespoke, lightning fast and modern web applications.
+                        I'm a junior Full-Stack Developer with 6 months commercial experience in Ruby on Rails. 
+                        I'm well versed in the MERN stack (MongoDB, Express.js, React.js, Node.js), Java, CSS and TypeScript. 
+                        I graduated with Distinction from my Master's degree in Computing from The Manchester Metropolitan 
+                        University where I became proficient in Java. I really enjoy front-end development and I strive to 
+                        develop expertise in the whole Software Development Life Cycle in order to hone my skills as a Developer.
                         </p>
                         <div className="split">
                             <div>
