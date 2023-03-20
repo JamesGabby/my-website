@@ -2,7 +2,7 @@ import React from "react";
 import './skills-section.styles.scss';
 import { DiJava } from 'react-icons/di';
 import { IoLogoJavascript } from 'react-icons/io';
-import { DiReact } from 'react-icons/di';
+import { DiRuby } from 'react-icons/di';
 import { FaAws } from 'react-icons/fa';
 import { FaDatabase } from 'react-icons/fa';
 import { FaNode } from 'react-icons/fa';
@@ -30,16 +30,16 @@ const SkillsSection = () => {
                         </div>
                         <div data-aos="zoom-in" data-aos-delay="250">
                             <div className="skill">
-                                <h2 id="react"><DiReact size="3em" /></h2>
-                                <h3>React.js</h3>
-                                <p>Native, Redux, Hooks, Router, Bootstrap, Context API</p>
+                                <h2 id="ruby"><DiRuby size="3em" /></h2>
+                                <h3>Ruby</h3>
+                                <p>Rails, Slim, jQuery, SASS</p>
                             </div>
                         </div>
                         <div data-aos="zoom-in" data-aos-delay="250">
                             <div className="skill">
                                 <h2 id="js"><IoLogoJavascript size="3em" /></h2>
                                 <h3>JavaScript</h3>
-                                <p>jQuery, Next.js, Anime.js, AOS</p>
+                                <p>React.js, Next.js, Angular</p>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ const SkillsSection = () => {
                             <div className="skill">
                                 <h2><FaDatabase size="3em" /></h2>
                                 <h3>Databases</h3>
-                                <p>MySQL, MongoDB, DynamoDB</p>
+                                <p>MySQL, MongoDB, Postgresql</p>
                             </div>
                         </div>
                         <div data-aos="zoom-in" data-aos-delay="250">
