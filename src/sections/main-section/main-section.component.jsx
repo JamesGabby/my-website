@@ -1,6 +1,6 @@
 import React from "react";
 import './main-section.styles.scss';
-import pic from './me.jpg';
+import pic from './me-.jpg';
 import { MdEmail } from 'react-icons/md';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
@@ -60,7 +60,7 @@ const MainSection = () => (
                             <div className="edu">
                                 <h3>Education</h3>
                                 <ul className="no-list-styling">
-                                    <li><FaGraduationCap size="1.8em" />  MS Computing, 2021<p>Manchester Metropolitan University</p></li>
+                                    <li><FaGraduationCap size="1.8em" />  MSc Computing, 2021<p>Manchester Metropolitan University</p></li>
                                     <li><FaGraduationCap size="1.8em" />  BA Philosophy, 2020<p>Manchester Metropolitan University</p></li>
                                 </ul>
                             </div>
