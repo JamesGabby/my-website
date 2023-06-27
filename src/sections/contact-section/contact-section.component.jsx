@@ -79,17 +79,17 @@ const ContactSection = () => {
                     
                     <Form ref={form} onSubmit={sendEmail} className='form'>
                         <div className="skill">
-                            <Form.Group className={forms ? 'w-100' : 'w-50'} controlId="formBasicUsername">
+                            <Form.Group className={forms ? 'w-100' : 'w-50'} controlId="formBasicUsername" id='form'>
                                 <Form.Control className='text-primary' value={name} onChange={handleNameChange} type="text" name="user_name" placeholder='Your Name'/>
                             </Form.Group>
                         </div>
                         <div className="skill">
-                            <Form.Group className={forms ? 'w-100' : 'w-50'} controlId="formBasicEmail">
+                            <Form.Group className={forms ? 'w-100' : 'w-50'} controlId="formBasicEmail" id='form'>
                                     <Form.Control className='text-primary' value={email} onChange={handleEmailChange} type="email" name="user_email" placeholder='Your Email' />
                             </Form.Group>                    
                         </div>
                         <div className="skill">
-                            <Form.Group className={forms ? 'w-100' : 'w-50'} controlId="formBasicMessage">
+                            <Form.Group className={forms ? 'w-100' : 'w-50'} controlId="formBasicMessage" id='form'>
                                     <Form.Control className='text-primary' value={message} onChange={handleMessageChange} as="textarea" rows={3} name="message" placeholder='Message' />
                             </Form.Group>                    
                         </div>
