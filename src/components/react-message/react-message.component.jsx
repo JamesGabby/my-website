@@ -7,7 +7,7 @@ import { AiOutlineCopyrightCircle } from 'react-icons/ai';
 const ReactMessage = () => (
     <div className="React-message">
         <div className="pwr"><code>Powered by React</code><img src={logo} className="App-logo" alt="logo" /></div>
-        <code id="name"><AiOutlineCopyrightCircle id="icon"/> James Gabbitus, 2022</code>
+        <code id="name"><AiOutlineCopyrightCircle id="icon"/> James Gabbitus, {new Date().getFullYear()}</code>
     </div>
 );
 

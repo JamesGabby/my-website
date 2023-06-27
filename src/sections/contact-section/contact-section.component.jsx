@@ -94,7 +94,7 @@ const ContactSection = () => {
                             </Form.Group>                    
                         </div>
                         <div className="skill">
-                            <Button type="submit">Send</Button>
+                            <Button type="submit" id='button'>Send</Button>
                         </div>
                         <div className={wasSent ? 'was-sent' : 'not-sent'}>
                             {msgToClient}

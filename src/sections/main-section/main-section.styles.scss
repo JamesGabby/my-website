@@ -184,6 +184,7 @@ h3 {
     flex-basis: 3rem;
     transform: scale(1.4);
     color: #6CADDF;
+    transition: all .3s;
 }
 
 .socials #photo-icon {
@@ -191,7 +192,7 @@ h3 {
 }
 
 .socials a:hover {
-    transform: scale(1.8);
+    transform: scale(1.8) translateY(-.3rem);
     cursor: pointer;
 }
 

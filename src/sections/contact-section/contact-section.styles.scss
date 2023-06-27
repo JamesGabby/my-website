@@ -39,3 +39,12 @@
 .not-sent {
     color: rgb(191, 17, 17);
 }
+
+#button {
+    box-shadow: 0 10px 20px rgb(#000, 0.2);
+    transition: all .3s;
+
+    &:hover {
+        transform: translateY(-.4rem);
+    }
+}
